@@ -5,6 +5,9 @@ function Car() {
   // eslint-disable-next-line no-unused-vars
   const [direction, setDirection] = useState('down');
   const [isMoving, setIsMoving] = useState(false);
+  const [currentX, setCurrentX] = useState(0);
+  // eslint-disable-next-line no-unused-vars
+  const [currentY, setCurrentY] = useState(0);
 
   useEffect(() => {
     function handleKeyDown(event) {
@@ -12,24 +15,27 @@ function Car() {
       const scrollAmount = 30;
 
       if (event.key === 'ArrowDown') {
-        carElement.style.transform = 'translateX(0px) rotate(0deg)';
+        carElement.style.transform = `translateX(${currentX}px) translateY(0px) rotate(0deg)`;
         setDirection('down');
+        setCurrentY(0);
         window.scrollBy(0, scrollAmount); // Desplazar hacia abajo
       } else if (event.key === 'ArrowLeft') {
-        carElement.style.transform = 'translateX(200px) rotate(35deg)';
+        setCurrentX(900);
+        carElement.style.transform = `translateX(900px) translateY(0px) rotate(${currentY}deg)`;
         setDirection('left');
       } else if (event.key === 'ArrowRight') {
-        carElement.style.transform = 'translateX(-200px) rotate(-35deg)';
+        setCurrentX(0);
+        carElement.style.transform = `translateX(0px) translateY(0px) rotate(${currentY}deg)`;
         setDirection('right');
       } else if (event.key === 'ArrowUp') {
         window.scrollBy(0, -scrollAmount); // Desplazar hacia arriba
-        carElement.style.transform = 'translateX(0px) rotate(180deg)';
+        carElement.style.transform = `translateX(${currentX}px) translateY(0px) rotate(180deg)`;
         setDirection('up');
+        setCurrentY(180);
       }
 
       setIsMoving(true);
     }
-
     // eslint-disable-next-line no-unused-vars
     function handleKeyUp(event) {
       setIsMoving(false);
@@ -42,7 +48,7 @@ function Car() {
       window.removeEventListener('keydown', handleKeyDown);
       window.removeEventListener('keyup', handleKeyUp);
     };
-  }, []);
+  }, [currentX, currentY]);
 
   return <div className={`${styles.car} ${isMoving && styles.active}`} />;
 }
