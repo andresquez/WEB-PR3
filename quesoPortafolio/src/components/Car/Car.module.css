@@ -3,7 +3,7 @@
     top: 10%;
     left: 65%;
     width: 400px;
-    height: 900px;
+    height: 800px;
     background-image: url("../../../public/car.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -14,6 +14,24 @@
   }
   
   .car.active {
-    box-shadow: 0 0 10px red;
+    box-shadow: red;
+  }
+  
+  @keyframes zigzag {
+    0% {
+      transform: translateX(0) rotate(15deg);
+    }
+    25% {
+      transform: translateX(200px) rotate(-15deg);
+    }
+    50% {
+      transform: translateX(-100px) rotate(15deg);
+    }
+    75% {
+      transform: translateX(200px) rotate(-15deg);
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+    }
   }
   
