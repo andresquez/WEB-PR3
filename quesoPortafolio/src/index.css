@@ -22,4 +22,6 @@
 
 body {   
   font-family: 'Squartiqa4FInline', sans-serif; 
+  cursor: url('../cheese.svg'), auto
 }
+
