@@ -1,7 +1,7 @@
 .car {
     position: fixed;
-    top: 10%;
-    left: 65%;
+    top: 13%;
+    left: 64%;
     width: 400px;
     height: 800px;
     background-image: url("../../../public/car.svg");

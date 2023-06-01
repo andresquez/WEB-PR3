@@ -5,7 +5,7 @@
     /* padding: 2rem; */
     text-align: center;
     background-color: skyblue;
-    background-image: url("../../../public/racetrack.svg");
+    background-image: url("../../../public/start.svg");
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
@@ -13,7 +13,7 @@
     overflow-x: hidden;
   }
 
-  .title {
+  .message {
     height: 400px;
     width: 400px;
     margin-left: 20%;
@@ -21,7 +21,14 @@
     margin-bottom: 0;
     text-align: center;
     justify-content: center;
-    overflow: hidden;
+    color: black;
+    background-color: white;
+  }
+
+  .title {
+    font-size: 4em;
+    color: black;
+
   }
 
   
