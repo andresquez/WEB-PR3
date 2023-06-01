@@ -1,6 +1,21 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: 0 0;
+  /* padding: 2rem; */
   text-align: center;
+  /* background-color: red; */
+}
+
+.container {
+  /* display: flex; */
+  height: 100%;
+  background-color: blue;
+}
+
+.title {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
 }

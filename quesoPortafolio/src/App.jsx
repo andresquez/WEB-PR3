@@ -1,11 +1,18 @@
-import './App.css';
 import React from 'react';
+import './App.css';
+import RaceTrack from './components/RaceTrack/RaceTrack';
+import Car from './components/Car/Car';
 
 function App() {
   return (
-    <div>
-      hola
+    <div className="container">
+      <RaceTrack />
+      <Car />
+      <RaceTrack />
+      <RaceTrack />
+      <RaceTrack />
     </div>
+
   );
 }
 

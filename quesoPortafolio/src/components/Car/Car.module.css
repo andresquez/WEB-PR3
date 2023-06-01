@@ -1,0 +1,19 @@
+.car {
+    position: fixed;
+    top: 10%;
+    left: 65%;
+    width: 400px;
+    height: 900px;
+    background-image: url("../../../public/car.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: transform 0.5s ease-in-out;
+    rotate: 180deg;
+    animation: none;
+  }
+  
+  .car.active {
+    box-shadow: 0 0 10px red;
+  }
+  
