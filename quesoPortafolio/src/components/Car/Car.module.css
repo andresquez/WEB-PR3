@@ -4,7 +4,7 @@
     left: 71%;
     width:  10%;
     height: 40%;
-    background-image: url("../../../public/car.svg");
+    background-image: url("../../../car.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -13,26 +13,3 @@
     animation: none;
     z-index: 100;
   }
-  
-  .car.active {
-    /* background-color: red; */
-  }
-  
-  /* @keyframes zigzag {
-    0% {
-      transform: translateX(0) rotate(15deg);
-    }
-    25% {
-      transform: translateX(200px) rotate(-15deg);
-    }
-    50% {
-      transform: translateX(-100px) rotate(15deg);
-    }
-    75% {
-      transform: translateX(200px) rotate(-15deg);
-    }
-    100% {
-      transform: translateX(0) rotate(0deg);
-    }
-  } */
-  
