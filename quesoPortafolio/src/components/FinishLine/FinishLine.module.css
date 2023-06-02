@@ -1,0 +1,122 @@
+.track {
+    position: relative;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    /* padding: 2rem; */
+    text-align: center;
+    background-color: skyblue;
+    background-image: url("../../../public/finish.svg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    /* background-position: center; */
+    /* background-position-x: -100px; */
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+    
+  .message {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    max-width: 30%;
+    margin-left: 35%;
+    margin-top: 20%;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    background-color: #f2f2f2;
+    border: 15px solid red;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .title {
+    font-size: 2em;
+    color: black;
+  }
+
+  .fireworks {
+    position: absolute;
+    margin-left: -60%;
+    overflow-y: hidden;
+  }
+  .fireworks2 {
+    position: absolute;
+    margin-left: -60%;
+    margin-top: 20%;
+    overflow-y: hidden;
+  }
+  .fireworks3 {
+    position: absolute;
+    margin-left: -60%;
+    margin-top: 40%;
+    overflow-y: hidden;
+  }
+  .fireworks4 {
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 40%;
+    overflow-y: hidden;
+  }
+  .fireworks5 {
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 40%;
+    overflow-y: hidden;
+  }
+  .fireworks6 {
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 40%;   
+    overflow-y: hidden;
+  }
+  .fireworks7 {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 40%;
+    overflow-y: hidden;
+  }
+  .fireworks8 {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20%;
+    overflow-y: hidden;
+  }
+  .fireworks9 {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 0%;
+    overflow-y: hidden;
+  }
+  .fireworks10 {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -10%;
+    overflow-y: hidden;
+  }
+  .fireworks11 {
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -10%;
+    overflow-y: hidden;
+  }
+  .fireworks12 {
+    position: absolute;
+    margin-left: -20%;
+    margin-top: -10%;
+    overflow-y: hidden;
+  }
+  .fireworks13 {
+    position: absolute;
+    margin-left: -40%;
+    margin-top: -10%;
+    overflow-y: hidden;
+  }
+  .fireworks14 {
+    position: absolute;
+    margin-left: -60%;
+    margin-top: -10%;
+    overflow-y: hidden;
+  }

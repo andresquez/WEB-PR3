@@ -19,3 +19,13 @@
   background-color: blue;
   position: relative;
 }
+
+.arrow {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  margin-bottom: 0;
+  margin-left: 11%;
+  margin-top: 15%;
+  z-index: 0;
+}

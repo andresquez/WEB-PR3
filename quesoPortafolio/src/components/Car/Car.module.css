@@ -11,13 +11,14 @@
     transition: transform 0.5s ease-in-out;
     rotate: 180deg;
     animation: none;
+    z-index: 100;
   }
   
   .car.active {
-    background-color: red;
+    /* background-color: red; */
   }
   
-  @keyframes zigzag {
+  /* @keyframes zigzag {
     0% {
       transform: translateX(0) rotate(15deg);
     }
@@ -33,5 +34,5 @@
     100% {
       transform: translateX(0) rotate(0deg);
     }
-  }
+  } */
   

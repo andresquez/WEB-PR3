@@ -9,7 +9,7 @@ function Car() {
   useEffect(() => {
     function handleKeyDown(event) {
       const carElement = document.querySelector(`.${styles.car}`);
-      const scrollAmount = 30;
+      const scrollAmount = 10;
 
       if (event.key === 'ArrowDown') {
         carElement.style.transform = `translateX(${currentX}px) translateY(0px) rotate(0deg)`;

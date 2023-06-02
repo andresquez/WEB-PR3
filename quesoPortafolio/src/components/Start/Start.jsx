@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import styles from './Start.module.css';
+import arrow from '../../../public/arrow.png';
 
 function Start() {
   useEffect(() => {
     window.addEventListener('load', () => {
-      window.scrollTo(0, 200); // Cambia el valor "500" según tus necesidades
+      window.scrollTo(0, 200);
     });
   }, []);
 
@@ -17,9 +18,24 @@ function Start() {
           Go to your start position
         </div>
       </div>
+      <img src={arrow} alt="arrow" className={styles.arrow} />
       <div className={styles.message}>
         <div className={styles.title}>
-          Use the arrow keys to move
+          ↑ ↓ to move
+          <br />
+          ← → to switch lanes
+        </div>
+      </div>
+      <div className={styles.semaphore}>
+        <div className={styles.light_red} />
+        <div className={styles.light_yellow} />
+        <div className={styles.light_green} />
+      </div>
+      <div className={styles.message}>
+        <div className={styles.title}>
+          Ready?
+          <br />
+          Go at Green!
         </div>
       </div>
     </div>

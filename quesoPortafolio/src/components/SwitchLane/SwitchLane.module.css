@@ -1,0 +1,43 @@
+.track {
+    max-width: 100vw;
+    height: 200vh;
+    margin: 0;
+    /* padding: 2rem; */
+    text-align: center;
+    background-color: skyblue;
+    background-image: url("../../../public/racetrack.svg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    background-position-x: -100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .switchlaneRL {
+    max-height: fit-content;
+    rotate: 180deg;
+    animation: pulsate 1s infinite;
+}
+  
+  .switchlaneLR {
+    rotate: 0deg;
+    animation: pulsate 1s infinite;
+  }
+
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+    
