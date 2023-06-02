@@ -12,9 +12,13 @@ function Start() {
     <div className={styles.track}>
       <div className={styles.message}>
         <div className={styles.title}>
-          Hello! Go to your start position
+          Hello!
+          <br />
+          Go to your start position
         </div>
-        <div className={styles.subtitle}>
+      </div>
+      <div className={styles.message}>
+        <div className={styles.title}>
           Use the arrow keys to move
         </div>
       </div>

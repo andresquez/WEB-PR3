@@ -16,8 +16,8 @@ function Car() {
         setCurrentY(0);
         window.scrollBy(0, scrollAmount); // Desplazar hacia abajo
       } else if (event.key === 'ArrowLeft') {
-        setCurrentX(900);
-        carElement.style.transform = `translateX(900px) translateY(0px) rotate(${currentY}deg)`;
+        setCurrentX(750);
+        carElement.style.transform = `translateX(750px) translateY(0px) rotate(${currentY}deg)`;
       } else if (event.key === 'ArrowRight') {
         setCurrentX(0);
         carElement.style.transform = `translateX(0px) translateY(0px) rotate(${currentY}deg)`;

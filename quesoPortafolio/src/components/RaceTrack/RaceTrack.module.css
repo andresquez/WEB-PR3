@@ -1,17 +1,21 @@
 .track {
-    max-width: 100vw;
-    height: 200vh;
-    margin: 0 0;
-    /* padding: 2rem; */
-    text-align: center;
-    background-color: skyblue;
-    background-image: url("../../../public/racetrack.svg");
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-position: center;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
+  max-width: 100vw;
+  height: 200vh;
+  margin: 0;
+  /* padding: 2rem; */
+  text-align: center;
+  background-color: skyblue;
+  background-image: url("../../../public/racetrack.svg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  background-position-x: -100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
 
   .title {
     height: 400px;

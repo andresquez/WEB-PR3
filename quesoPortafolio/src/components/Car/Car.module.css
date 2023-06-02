@@ -1,9 +1,9 @@
 .car {
     position: fixed;
-    top: 13%;
-    left: 64%;
-    width: 400px;
-    height: 800px;
+    top: 15%;
+    left: 71%;
+    width:  10%;
+    height: 40%;
     background-image: url("../../../public/car.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -14,7 +14,7 @@
   }
   
   .car.active {
-    box-shadow: red;
+    background-color: red;
   }
   
   @keyframes zigzag {

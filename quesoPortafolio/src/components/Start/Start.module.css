@@ -17,8 +17,9 @@
   .message {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
-    margin-left: 15%;
+    height: fit-content;
+    max-width: 30%;
+    margin-left: 8.5%;
     margin-top: 20%;
     margin-bottom: 0;
     text-align: center;
@@ -29,12 +30,12 @@
   }
   
   .title {
-    font-size: 5em;
+    font-size: 2em;
     color: black;
   }
   
 .subtitle {
-    font-size: 2em;
+    font-size: 1em;
     color: black;
 }
   
