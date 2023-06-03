@@ -25,3 +25,7 @@ body {
   cursor: url('../cheese.svg'), auto
 }
 
+a {
+  cursor: url('../pointinghand.svg'), auto
+}
+

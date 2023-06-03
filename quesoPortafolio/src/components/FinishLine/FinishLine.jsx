@@ -20,9 +20,9 @@ function FinishLine() {
       })}
       <div className={styles.message}>
         <div className={styles.title}>
-          Hello!
+          You made it!
           <br />
-          Go to your start position
+          Thanks for visiting my website! Hope you enjoyed the race!
         </div>
       </div>
     </div>
