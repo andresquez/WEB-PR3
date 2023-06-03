@@ -17,6 +17,7 @@ import montessori from '../public/montessori.png';
 import uvg from '../public/uvg.png';
 import linkedin from '../public/linkedin.png';
 import mail from '../public/gmail.png';
+import whats from '../public/whatsapp.png';
 
 function App() {
   return (
@@ -54,6 +55,8 @@ function App() {
       <RaceTrack image={linkedin} link="linkedin.com/in/andres-eduardo-quezada-bendaña-41372b204" />
       <SwitchLane direction />
       <RaceTrack image={mail} link="mailto:andresequez@gmail.com?subject=Hello&body=I%20wanted%20to%20reach%20out%20to%20you" alignRight />
+      <SwitchLane />
+      <RaceTrack image={whats} link="https://wa.me/50231021287" />
       <FinishLine />
     </div>
   );
