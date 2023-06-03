@@ -6,18 +6,18 @@ import Start from './components/Start/Start';
 import EmptyRaceTrack from './components/EmptyRaceTrack/EmptyRaceTrack';
 import SwitchLane from './components/SwitchLane/SwitchLane';
 import FinishLine from './components/FinishLine/FinishLine';
-import skills from '../public/skills2.png';
-import project1 from '../public/healthhub.svg';
-import project2 from '../public/pogoyorkie.png';
-import project3 from '../public/condoadmin.png';
-import project4 from '../public/PETinder.png';
-import project5 from '../public/Payminds.png';
-import github from '../public/github.png';
-import montessori from '../public/montessori.png';
-import uvg from '../public/uvg.png';
-import linkedin from '../public/linkedin.png';
-import mail from '../public/gmail.png';
-import whats from '../public/whatsapp.png';
+import skills from './skills2.png';
+import project1 from './healthhub.svg';
+import project2 from './pogoyorkie.png';
+import project3 from './condoadmin.png';
+import project4 from './PETinder.png';
+import project5 from './Payminds.png';
+import github from './github.png';
+import montessori from './montessori.png';
+import uvg from './uvg.png';
+import linkedin from './linkedin.png';
+import mail from './gmail.png';
+import whats from './whatsapp.png';
 
 function App() {
   return (
