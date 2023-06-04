@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import styles from './Start.module.css';
-import arrow from '../../../public/arrow.png';
 
 function Start() {
   useEffect(() => {
@@ -18,7 +17,7 @@ function Start() {
           Go to your start position
         </div>
       </div>
-      <img src={arrow} alt="arrow" className={styles.arrow} />
+      <img src="../../../arrow.png" alt="arrow" className={styles.arrow} />
       <div className={styles.message}>
         <div className={styles.title}>
           ↑ ↓ to move

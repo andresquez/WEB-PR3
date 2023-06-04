@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './FinishLine.module.css';
-import fireworks from '../../../public/fireworks.gif';
 
 function FinishLine() {
   const fireworkClasses = Array.from({ length: 14 }, (_, index) => `fireworks${index + 1}`);
@@ -12,7 +11,7 @@ function FinishLine() {
         return (
           <img
             key={uniqueKey}
-            src={fireworks}
+            src="../../../fireworks.gif"
             alt="fireworks"
             className={`${styles[fireworkClass]} ${styles.fireworks}`}
           />

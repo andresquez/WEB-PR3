@@ -5,7 +5,7 @@
     /* padding: 2rem; */
     text-align: center;
     background-color: white;
-    background-image: url("../../../start.svg");
+    background-image: url("/start.svg");
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
