@@ -16,16 +16,16 @@
 
 @font-face {   
   font-family: 'Squartiqa4FInline';
-  src: url('/fonts/Squartiqa4FInline.ttf') format('truetype'); 
+  src: url('../fonts/Squartiqa4FInline.ttf') format('truetype'); 
 }
 
 
 body {   
   font-family: 'Squartiqa4FInline', sans-serif; 
-  cursor: url('/cheese.svg'), auto
+  cursor: url('../cheese.svg'), auto
 }
 
 a {
-  cursor: url('/pointinghand.svg'), auto
+  cursor: url('../pointinghand.svg'), auto
 }
 

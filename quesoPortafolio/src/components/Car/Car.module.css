@@ -4,7 +4,7 @@
     left: 71%;
     width:  10%;
     height: 40%;
-    background-image: url("/car.svg");
+    background-image: url("../car.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

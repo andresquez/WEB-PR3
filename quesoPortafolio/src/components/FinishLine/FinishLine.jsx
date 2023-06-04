@@ -11,7 +11,7 @@ function FinishLine() {
         return (
           <img
             key={uniqueKey}
-            src="../../../fireworks.gif"
+            src="./fireworks.gif"
             alt="fireworks"
             className={`${styles[fireworkClass]} ${styles.fireworks}`}
           />

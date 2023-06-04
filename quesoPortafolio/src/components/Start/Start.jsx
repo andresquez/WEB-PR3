@@ -17,7 +17,7 @@ function Start() {
           Go to your start position
         </div>
       </div>
-      <img src="../../../arrow.png" alt="arrow" className={styles.arrow} />
+      <img src="./arrow.png" alt="arrow" className={styles.arrow} />
       <div className={styles.message}>
         <div className={styles.title}>
           ↑ ↓ to move

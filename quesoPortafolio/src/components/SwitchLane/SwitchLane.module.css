@@ -4,8 +4,8 @@
     margin: 0;
     /* padding: 2rem; */
     text-align: center;
-    background-color: skyblue;
-    background-image: url("/racetrack.svg");
+    background-color: #87ceeb;
+    background-image: url("../racetrack.svg");
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center;

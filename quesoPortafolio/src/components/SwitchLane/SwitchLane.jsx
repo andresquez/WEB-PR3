@@ -7,7 +7,7 @@ function SwitchLane({ direction }) {
 
   return (
     <div className={styles.track}>
-      <img src="../../../changelane.png" alt="arrow" className={switchLaneClass} />
+      <img src="./changelane.png" alt="arrow" className={switchLaneClass} />
     </div>
   );
 }
